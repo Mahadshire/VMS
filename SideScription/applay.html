@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>applay</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <div class="row">
+        <div class="col-lg-4 m-auto p-4">
+            <form id="applayform" class="p-3 apply">
+                <input type="hidden" name="update_id" id="update_id">
+                <div class="row">
+                   
+                    <div class="col-sm-12 m-2">
+                        <div class="form-group">
+                        <label for="">program</label>
+        
+                        <select name="program_id" id="program_id" class="form-control" required>
+                        <!-- <option value="0">select program</option> -->
+                        <option disabled selected value>Select program</option>
+                        </select>
+                        </div>
+        
+                    </div>
+                    <div class="col-sm-12 m-2">
+                        <div class="form-group">
+                        <label for="">volunteers</label>
+        
+                        <select name="volunteers_id" id="volunteers_id" class="form-control" required>
+                        <option disabled selected value>Select an option</option>
+                        <!-- <option value="0">select volunteers</option> -->
+                        </select>
+                        </div>
+        
+                    </div>
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary " data-bs-dismiss="modal">Close</button>
+                    <button type="submit"  name="insert" class="btn btn-primary">Save Info</button>
+                  </div>
+              </div>
+              
+             </form>
+        </div>
+    
+</body>
+</html>
